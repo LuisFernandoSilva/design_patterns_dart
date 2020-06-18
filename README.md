@@ -1,10 +1,4 @@
 
-<h1> 
-<h2> 
->> Adaptação para dart do Design Patterns em java.
->> Adaptação para dart do Design Patterns em java.</h2>
->> Fonte dos examplos: <h1> https://www.tutorialspoint.com/design_pattern/index.htm <h1/>
-</h1>
 <h4>
 >>Design Patterns.</h4>
 <h6>Design Patterns(padrões de projeto) representam as melhores práticas. Design Patterns são soluções para os problemas gerais  durante o desenvolvimento de software. Estas soluções foram obtidos por tentativa e erro por vários desenvolvedores através de bastante de um período substancial de tempo.
