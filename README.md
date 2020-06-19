@@ -6,8 +6,8 @@
 <h4>A Gang of Four (GOF)</h4>
 <h6>Em 1994, quatro autores Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides publicou um livro intitulado" <a>Design Patterns - Elements of Reusable Object-Oriented Software</a> , que iniciou o conceito de Padrão de Projeto no desenvolvimento de Software. Esses autores são conhecidos coletivamente como Gang of Four (GOF). De acordo com esses autores, padrões de projeto são, tem como base os seguintes princípios.
 </h6>
-  <ol> <li>>>Programe para uma interface, não uma implementação</li>
-  <li>>> Favorecer a composição do objeto sobre a herança.</li></ol>
+  <ol> <li><h6> >>Programe para uma interface, não uma implementação</h6></li>
+  <li><h6> >> Favorecer a composição do objeto sobre a herança.</h6></li></ol>
 
 <h4>O uso do Padrão de Projeto</h4>
 <h6>
@@ -40,7 +40,11 @@ Conforme o padrão de design de referência de catálogo de Padrões de Projeto 
       </tr>       
     </tbody>
   </table>
+  
+<h4> Objetivo </h4>
+<h6> Ao fazer essa tradução dos exemplos em java para o dart, tenho como o objetivos: treinar mais a linguagem e oferecer a comunidade mais exemplos em dart. Existe exemplos do uso de design patterns no git hub não so usando o dart mas tembém flutter em inglês.Por isso não inclui os comentarios em inglês dentro de cada classe, sendo praticamento um conteudo exclusivo em portugues porem seguindo a boa pratica de escrever metodos e variaveis em ingles essas mantive sem a tradução. Se algum usuario que não fala inglês desejar ler sobre cada design pattern o site de exemplos segue nas referencias.</h6>
 
 <h4>Referencias</h4>
 <h5> >> Design Patterns:  https://pdfs.semanticscholar.org/a5a7/17572be243e6ad1f874ba3567eb22c4026f9.pdf </h5>
 <h5> >> Fonte dos exemplos:  https://www.tutorialspoint.com/design_pattern/index.htm </h5>  
+
