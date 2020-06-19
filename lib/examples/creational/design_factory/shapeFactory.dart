@@ -7,26 +7,22 @@ import 'package:extra_design_patterns_dart/examples/creational/design_factory/ci
 import 'package:extra_design_patterns_dart/examples/creational/design_factory/rectangle.dart';
 import 'package:extra_design_patterns_dart/examples/creational/design_factory/shape.dart';
 import 'package:extra_design_patterns_dart/examples/creational/design_factory/square.dart';
+import 'package:extra_design_patterns_dart/examples/utils.dart';
 
 class ShapeFactory {
   //usa getShape para pegar o objeto do tipo shape
-
+  Utils utils = Utils();
   Shape getShape(String shapeType) {
     if (shapeType == null) {
       return null;
     }
-    if (_equalsIgnoreCase(shapeType, 'CIRCULO')) {
+    if (utils.equalsIgnoreCase(shapeType, 'CIRCULO')) {
       return Circle();
-    } else if (_equalsIgnoreCase(shapeType, 'RETANGULO')) {
+    } else if (utils.equalsIgnoreCase(shapeType, 'RETANGULO')) {
       return Rectangle();
-    } else if (_equalsIgnoreCase(shapeType, 'QUADRADO')) {
+    } else if (utils.equalsIgnoreCase(shapeType, 'QUADRADO')) {
       return Square();
     }
     return null;
   }
-
-  //metodo que substitui o do java para comparar as strings e converte para letras minusculas e retorna false ou true
-  bool _equalsIgnoreCase(String a, String b) =>
-      (a == null && b == null) ||
-      (a != null && b != null && a.toLowerCase() == b.toLowerCase());
 }
