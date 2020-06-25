@@ -1,5 +1,5 @@
 
-Detalhe importante ao copiar verificar o se o nome do pacote import esta correto com sua maquina. 
+ 
 Todos os exemplos estão dentro da pasta lib, dividos em pasta conforme o tipo Criação, estruturais e comportamentais.
 
 fonte de exemplos:https://www.tutorialspoint.com/design_pattern/index.htm
